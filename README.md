@@ -61,7 +61,7 @@ scrape_configs:
       - targets:
         - http://prometheus:9090
         - http://grafana:3000
-        - http://192.168.1.110:5000  # Replace with your Synology IP
+        - http://YOUR_SYNOLOGY_IP:5000  # Replace with your Synology IP
     relabel_configs:
       - source_labels: [__address__]
         target_label: __param_target
@@ -69,6 +69,11 @@ scrape_configs:
         target_label: instance
       - target_label: __address__
         replacement: blackbox-exporter:9115
+
+  - job_name: 'windows-vm'
+    static_configs:
+      - targets: ['WINDOWS_VM_IP:9182']  # Replace with Windows VM IP
+    scrape_interval: 30s
 ```
 
 ### 2. SNMP Exporter Configuration (`snmp-exporter/snmp.yml`)
@@ -180,7 +185,7 @@ Once deployed, you can access each service at:
 | **Grafana** | http://your-server-ip:3001 | admin / admin123 |
 | **cAdvisor** | http://your-server-ip:8080 | No authentication |
 | **Node Exporter** | http://your-server-ip:9100 | No authentication |
-| **Uptime Kuma** | http://your-server-ip:3002 | Create admin user on first visit | Admin/Pow3rup?
+| **Uptime Kuma** | http://your-server-ip:3002 | Create admin user on first visit |
 | **Ntopng** | http://your-server-ip:3000 | No authentication |
 
 ## Post-Deployment Configuration
@@ -234,4 +239,3 @@ Once deployed, you can access each service at:
 - **Network monitoring issues:** Verify ntopng has proper network interface access
 
 Your monitoring stack is now ready to provide comprehensive visibility into your home lab infrastructure!
-
