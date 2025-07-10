@@ -1,4 +1,6 @@
 version: '3.8'
+include:
+  - path: ./landing-page/docker-compose.yml
 
 networks:
   monitoring:
@@ -29,7 +31,7 @@ services:
     container_name: nginx-proxy-manager
     restart: unless-stopped
     ports:
-      - '80:80'
+      - '8090:80'
       - '81:81'
       - '443:443'
     volumes:
@@ -188,3 +190,44 @@ services:
       - '--config.file=/config/blackbox.yml'
     networks:
       - monitoring
+
+  # Jellyfin Media Server
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    restart: unless-stopped
+    ports:
+      - "8096:8096"      # Web interface
+      - "8920:8920"      # HTTPS (optional)
+      - "7359:7359/udp"  # Auto-discovery
+      - "1900:1900/udp"  # DLNA
+    volumes:
+      # Jellyfin config and cache
+      - ./jellyfin/config:/config
+      - ./jellyfin/cache:/cache
+      
+      # Media directories - UPDATE THESE PATHS!
+      - /home/kshokri/Videos:/media/movies:ro
+      - /home/kshokri/Videos:/media/tv:ro
+      - /home/kshokri/Music:/media/music:ro
+      - /home/kshokri/photos:/media/photos:ro
+      
+      # Optional: For hardware acceleration (Intel)
+      # - /dev/dri:/dev/dri
+    environment:
+      - JELLYFIN_PublishedServerUrl=http://192.168.1.98:8096  # UPDATE THIS!
+      - PUID=1000  # Your user ID - run 'id' command to get this
+      - PGID=1000  # Your group ID - run 'id' command to get this
+    networks:
+      - monitoring
+    
+    # Optional: Hardware acceleration for Intel systems
+    # devices:
+    #   - /dev/dri/renderD128:/dev/dri/renderD128
+    #   - /dev/dri/card0:/dev/dri/card0
+    
+    # Optional: For NVIDIA GPU hardware acceleration
+    # runtime: nvidia
+    # environment:
+    #   - NVIDIA_VISIBLE_DEVICES=all
+    #   - NVIDIA_DRIVER_CAPABILITIES=compute,video,utility

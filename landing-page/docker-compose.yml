@@ -1,0 +1,15 @@
+services:
+  # Landing Page Web Server
+  landing-page:
+    image: nginx:alpine
+    container_name: homelab-landing
+    restart: unless-stopped
+    ports:
+      - "80:80"    # Serves on port 80 (your server's base IP)
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html:ro
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    networks:
+      - monitoring
+    depends_on:
+      - nginx-proxy-manager  # This will be resolved from main compose

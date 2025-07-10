@@ -1,0 +1,98 @@
+[2025-07-10 00:16:03.957 +00:00] [INF] [30] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.81" request
+[2025-07-10 00:16:36.155 +00:00] [INF] [25] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "admin". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2025-07-10 00:38:24.633 +00:00] [INF] [42] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.10.7" playing "Murderbot.S01E04". Stopped at "1305871" ms
+[2025-07-10 00:53:36.189 +00:00] [INF] [18] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "admin". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2025-07-10 01:11:51.686 +00:00] [INF] [22] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Download missing subtitles" Completed after 0 minute(s) and 0 seconds
+[2025-07-10 01:11:51.706 +00:00] [INF] [23] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2025-07-10 01:11:51.706 +00:00] [INF] [22] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2025-07-10 01:11:51.727 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Log Directory" Completed after 0 minute(s) and 0 seconds
+[2025-07-10 01:11:51.727 +00:00] [INF] [25] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Audio Normalization" Completed after 0 minute(s) and 0 seconds
+[2025-07-10 01:11:51.747 +00:00] [INF] [23] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: jellyfin.db optimized successfully!
+[2025-07-10 01:11:51.747 +00:00] [INF] [39] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Download missing lyrics" Completed after 0 minute(s) and 0 seconds
+[2025-07-10 01:11:51.747 +00:00] [INF] [23] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2025-07-10 01:11:51.747 +00:00] [INF] [18] Emby.Server.Implementations.ScheduledTasks.TaskManager: "TasksRefreshChannels" Completed after 0 minute(s) and 0 seconds
+[2025-07-10 01:11:51.807 +00:00] [INF] [22] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Cache Directory" Completed after 0 minute(s) and 0 seconds
+[2025-07-10 01:11:52.285 +00:00] [INF] [22] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 0 seconds
+[2025-07-10 01:11:54.729 +00:00] [INF] [23] Jellyfin.LiveTv.Guide.GuideManager: Refreshing guide with 7 days of guide data
+[2025-07-10 01:11:54.729 +00:00] [INF] [23] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2025-07-10 01:13:53.690 +00:00] [INF] [18] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/movies"
+[2025-07-10 01:13:53.690 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2025-07-10 01:13:53.692 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2025-07-10 01:13:53.693 +00:00] [INF] [22] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Media Segment Scan" Completed after 0 minute(s) and 0 seconds
+[2025-07-10 01:13:53.728 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2025-07-10 01:13:57.927 +00:00] [INF] [22] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 4 seconds
+[2025-07-10 01:13:57.947 +00:00] [INF] [41] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/movies"
+[2025-07-10 01:16:57.731 +00:00] [INF] [10] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.10.7" playing "Murderbot.S01E05". Stopped at "1399776" ms
+[2025-07-10 01:18:19.496 +00:00] [INF] [33] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "admin". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2025-07-10 01:38:56.695 +00:00] [INF] [8] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.10.7" playing "rick.and.morty.s08e05". Stopped at "1235051" ms
+[2025-07-10 01:39:27.958 +00:00] [INF] [30] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2025-07-10 01:39:39.957 +00:00] [INF] [45] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2025-07-10 02:00:00.003 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extract Chapter Images" Completed after 0 minute(s) and 0 seconds
+[2025-07-10 02:00:01.000 +00:00] [INF] [26] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2025-07-11 02:00:00.000 +00:00, which is 23:59:58.9996349 from now.
+[2025-07-10 03:00:00.000 +00:00] [INF] [26] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Generate Trickplay Images" Completed after 0 minute(s) and 0 seconds
+[2025-07-10 03:00:00.998 +00:00] [INF] [26] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2025-07-11 03:00:00.000 +00:00, which is 23:59:59.0012258 from now.
+[2025-07-10 04:00:53.999 +00:00] [WRN] [56] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.1.81" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2025-07-10 04:00:54.013 +00:00] [INF] [56] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.81" closed
+[2025-07-10 13:14:54.692 +00:00] [INF] [27] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/movies"
+[2025-07-10 13:14:54.692 +00:00] [INF] [27] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2025-07-10 13:14:54.694 +00:00] [WRN] [27] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2025-07-10 13:14:54.695 +00:00] [INF] [24] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Media Segment Scan" Completed after 0 minute(s) and 0 seconds
+[2025-07-10 13:14:54.718 +00:00] [WRN] [27] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2025-07-10 13:14:59.207 +00:00] [INF] [42] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 4 seconds
+[2025-07-10 13:14:59.228 +00:00] [INF] [36] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/movies"
+[2025-07-10 17:51:08.579 +00:00] [INF] [38] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2025-07-10 17:51:08.592 +00:00] [INF] [51] Jellyfin.Networking.PortForwardingHost: Stopping NAT discovery
+[2025-07-10 17:51:08.600 +00:00] [INF] [37] Main: Running query planner optimizations in the database... This might take a while
+[2025-07-10 17:51:08.644 +00:00] [INF] [35] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/movies"
+[2025-07-10 17:51:08.660 +00:00] [INF] [37] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2025-07-10 17:51:08.660 +00:00] [INF] [37] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzArtistProvider"
+[2025-07-10 17:51:08.661 +00:00] [INF] [37] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2025-07-10 17:51:08.661 +00:00] [INF] [37] Emby.Server.Implementations.ApplicationHost: Disposing "PluginManager"
+[2025-07-10 17:51:35.574 +00:00] [INF] [1] Main: Jellyfin version: "10.10.7"
+[2025-07-10 17:51:35.601 +00:00] [INF] [1] Main: Environment Variables: ["[JELLYFIN_CONFIG_DIR, /config/config]", "[JELLYFIN_FFMPEG, /usr/lib/jellyfin-ffmpeg/ffmpeg]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_CACHE_DIR, /cache]", "[JELLYFIN_DATA_DIR, /config]", "[JELLYFIN_PublishedServerUrl, http://192.168.1.98:8096]", "[JELLYFIN_WEB_DIR, /jellyfin/jellyfin-web]"]
+[2025-07-10 17:51:35.603 +00:00] [INF] [1] Main: Arguments: ["/jellyfin/jellyfin.dll"]
+[2025-07-10 17:51:35.604 +00:00] [INF] [1] Main: Operating system: "Debian GNU/Linux 12 (bookworm)"
+[2025-07-10 17:51:35.604 +00:00] [INF] [1] Main: Architecture: X64
+[2025-07-10 17:51:35.605 +00:00] [INF] [1] Main: 64-Bit Process: True
+[2025-07-10 17:51:35.605 +00:00] [INF] [1] Main: User Interactive: True
+[2025-07-10 17:51:35.605 +00:00] [INF] [1] Main: Processor count: 8
+[2025-07-10 17:51:35.605 +00:00] [INF] [1] Main: Program data path: "/config"
+[2025-07-10 17:51:35.605 +00:00] [INF] [1] Main: Log directory path: "/config/log"
+[2025-07-10 17:51:35.605 +00:00] [INF] [1] Main: Config directory path: "/config/config"
+[2025-07-10 17:51:35.605 +00:00] [INF] [1] Main: Cache path: "/cache"
+[2025-07-10 17:51:35.605 +00:00] [INF] [1] Main: Temp directory path: "/tmp/jellyfin"
+[2025-07-10 17:51:35.605 +00:00] [INF] [1] Main: Web resources path: "/jellyfin/jellyfin-web"
+[2025-07-10 17:51:35.605 +00:00] [INF] [1] Main: Application directory: "/jellyfin/"
+[2025-07-10 17:51:35.798 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2025-07-10 17:51:35.847 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2025-07-10 17:51:35.970 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2025-07-10 17:51:35.971 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2025-07-10 17:51:35.971 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2025-07-10 17:51:35.972 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.18.0.5"]
+[2025-07-10 17:51:35.973 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2025-07-10 17:51:35.974 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2025-07-10 17:51:35.974 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2025-07-10 17:51:37.681 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.10.7.0"
+[2025-07-10 17:51:37.682 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.10.7.0"
+[2025-07-10 17:51:37.683 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.10.7.0"
+[2025-07-10 17:51:37.700 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.10.7.0"
+[2025-07-10 17:51:37.700 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.10.7.0"
+[2025-07-10 17:51:37.788 +00:00] [INF] [1] Main: Kestrel is listening on "0.0.0.0"
+[2025-07-10 17:51:37.803 +00:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {987436aa-f074-4336-9747-73a9a3db77e8} may be persisted to storage in unencrypted form.
+[2025-07-10 17:51:38.439 +00:00] [WRN] [1] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/wwwroot". Static files may be unavailable.
+[2025-07-10 17:51:38.465 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2025-07-10 17:51:38.467 +00:00] [INF] [10] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/movies"
+[2025-07-10 17:51:38.481 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2025-07-11 03:00:00.000 +00:00, which is 09:08:21.5189287 from now.
+[2025-07-10 17:51:38.484 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2025-07-11 02:00:00.000 +00:00, which is 08:08:21.5150966 from now.
+[2025-07-10 17:51:38.524 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "7.0.2"
+[2025-07-10 17:51:38.567 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2025-07-10 17:51:38.584 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2025-07-10 17:51:38.601 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["bwdif_cuda", "deinterlace_qsv", "deinterlace_vaapi", "flip_vulkan", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemapx", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "transpose_cuda", "transpose_opencl", "transpose_vaapi", "transpose_vulkan", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2025-07-10 17:51:38.720 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2025-07-10 17:51:41.418 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2025-07-10 17:51:41.418 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: "50dd6d5512ec40fe892e07f4ffffea36"
+[2025-07-10 17:51:41.418 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2025-07-10 17:51:41.418 +00:00] [INF] [1] Main: Startup complete 0:00:06.0317157
+[2025-07-10 17:51:41.494 +00:00] [INF] [17] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2025-07-10 17:51:41.495 +00:00] [INF] [19] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2025-07-10 17:51:42.107 +00:00] [INF] [19] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 0 seconds
